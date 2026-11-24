@@ -1,0 +1,511 @@
+[
+  {
+    "slug": "carecircle",
+    "title": "CareCircle",
+    "subtitle": "Helping parents find trusted childcare and plan time for themselves",
+    "kind": "UX/UI concept",
+    "meta": {
+      "Project type": "UX/UI design concept",
+      "My role": "UX/UI Designer",
+      "Tools": "Figma",
+      "Focus": "User flows, wireframes, interface design, and prototyping"
+    },
+    "cover": "Care circle mock up.png",
+    "sections": [
+      [
+        "Overview",
+        "CareCircle is a mobile app concept designed to help parents discover verified nannies and explore nearby restaurants and activities in Seattle and Bellevue. The idea brings childcare and local discovery into one experience, making it easier to plan a date night or time away."
+      ],
+      [
+        "The problem",
+        "Planning an evening out can involve several disconnected tasks: finding a nanny, evaluating their suitability, checking availability, and deciding where to go. For parents, uncertainty about childcare can make the whole process feel overwhelming.\n\n**Design question:** How might we help parents find childcare they feel confident about while making it easier to plan their time out?"
+      ],
+      [
+        "The goal",
+        "Create a welcoming, straightforward experience that helps parents:\n- Discover nannies in their area.\n- Understand caregivers’ experience and verification information.\n- Find nearby restaurants and activities.\n- Move between childcare and outing plans with less effort."
+      ],
+      [
+        "My approach",
+        "I developed CareCircle around two connected needs: confidence in childcare and convenience in planning. I mapped the parent journey, explored the information needed to assess a nanny, and designed screens that connect caregiver discovery with local recommendations.\n\nThe project also considers a separate nanny experience, recognising that caregivers need a clear way to present their skills and experience."
+      ],
+      [
+        "The proposed experience",
+        "**1. Discover nearby nannies**\nParents browse caregivers in their area and open profiles to learn more. The design prioritises information that supports an informed decision, including experience, availability, and verification status.\n\n**2. Review trust information**\nCaregiver profiles give verification information a visible place in the interface. The intention is to help parents understand what has been checked and what they still need to discuss with a caregiver. Verification is a proposed product feature; it does not guarantee a caregiver’s suitability.\n\n**3. Explore local options**\nParents can discover nearby restaurants and activities, connecting the practical task of finding childcare with the experience they want to plan.\n\n**4. Plan the next step**\nThe proposed journey connects nanny discovery, profile review, and local exploration so parents can organise their plans within a consistent experience."
+      ],
+      [
+        "Visual design",
+        "I chose a colourful, mobile-first direction to create a friendly and approachable identity. The supplied screens use coral, cream, green, and supporting accent colours. Clear navigation, readable typography, and consistent interface components help organise information without making the experience feel crowded.\n\nThe aim was to balance warmth with clarity, especially on screens where parents assess caregiver information."
+      ],
+      [
+        "Key design decisions",
+        "**Make trust information easy to find.**\nParents should be able to locate relevant verification details without searching through a long profile.\n\n**Connect childcare with local discovery.**\nRestaurant and activity recommendations give the app a purpose beyond caregiver browsing and support the wider planning journey.\n\n**Design for both parents and nannies.**\nConsidering both sides helps identify what caregivers need to share and what parents need to understand."
+      ],
+      [
+        "Outcome and next steps",
+        "The project includes user journey exploration, wireframes, interface concepts, a style guide, and a prototype direction for the parent and nanny experiences.\n\nCareCircle remains a design concept. Usability improvements and real-world impact have not yet been validated through testing.\n\nMy next step would be to test whether parents can find a suitable caregiver, interpret verification information correctly, and understand how local discovery fits into their planning process."
+      ],
+      [
+        "Reflection",
+        "CareCircle helped me explore how interface design can support decisions that involve trust. It reinforced the need to communicate clearly, make important information visible, and consider the complete experience surrounding a user’s immediate task."
+      ]
+    ],
+    "gallery": [
+      [
+        "Care Circle site map.png",
+        "Proposed information architecture"
+      ],
+      [
+        "Care circle Ui.png",
+        "Parent experience: home, exploration, messages, bookings, and profile"
+      ],
+      [
+        "Care Circle color palette.png",
+        "CareCircle colour palette"
+      ]
+    ]
+  },
+  {
+    "slug": "vaulto",
+    "title": "Banking Abroad, Without Barriers",
+    "subtitle": "Redesigning secure, flexible and accessible banking for South Africans living abroad",
+    "kind": "UX/UI · Fintech concept",
+    "meta": {
+      "Project": "Vaulto",
+      "Project type": "Banking app design concept",
+      "Focus": "Account access, identity verification, and recovery"
+    },
+    "cover": "Mock up ad.png",
+    "sections": [
+      [
+        "Overview",
+        "This case study explores how we can help users abroad access and recover their accounts with less stress."
+      ],
+      [
+        "Research · The problem",
+        "- OTP dependency creates anxiety when switching devices or SIM cards.\n- Support feels limited for international users.\n- Security versus convenience tradeoffs frustrate users daily.\n- Users want more control over their account access options."
+      ],
+      [
+        "Research summary",
+        "- Time zones and unfamiliar branches add stress to the banking experience.\n- SMS codes and OTPs are unusable without access to the registered local number abroad.\n- Security is critical but rigid processes block legitimate users.\n- Many users rely on family back home to manage their accounts."
+      ],
+      [
+        "User persona · Lufuno M.",
+        "**Teacher living in the US**\n\n**Goals**\n- Access her SA bank account while living in the US.\n- Send money back home to family easily.\n- Avoid account freezes due to inactivity.\n\n**Frustrations**\n- OTP sent to an inactive South African number.\n- App locks out due to suspicious activity.\n- No easy way to verify identity remotely.\n\n**Pain points**\n- Cannot access account without a local SIM.\n- Long wait times with international support.\n- High international transfer fees.\n\n**Needs**\n- Face ID or app-based authentication.\n- An international support helpline.\n- Flexible OTP delivery options."
+      ],
+      [
+        "User journey",
+        "**01 · Discovery**\nUser realises they need to access their SA account while abroad.\n\n**02 · Attempt**\nOpens the banking app and enters credentials.\n\n**03 · Blocked**\nOTP is sent to an SA number; the user cannot receive it in the US.\n\n**04 · Struggle**\nContacts support, with long hold times and no resolution.\n\n**05 · Proposed resolution**\nA redesigned flow explores Face ID and an email OTP option."
+      ],
+      [
+        "Proposed key features",
+        "**Face ID & biometrics**\nExplore device biometrics for sign-in on enrolled devices.\n\n**Email OTP fallback**\nExplore delivery to a registered email address when SMS is unavailable.\n\n**International support**\nA proposed 24/7 chat experience with guided identity verification.\n\n**Account recovery**\nStep-by-step account recovery designed for users across borders.\n\n**Flexible notifications**\nChoose how and where to receive alerts and supported authentication codes.\n\n**Trusted devices**\nRegister trusted devices to reduce repeated verification at known logins."
+      ],
+      [
+        "Concept scope",
+        "These screens illustrate proposed journeys rather than a working banking service. Authentication and recovery choices would require security review and validation before implementation. No measured usability or security outcomes are claimed."
+      ]
+    ],
+    "gallery": [
+      [
+        "Banking abroad site map.png",
+        "Vaulto app information architecture"
+      ],
+      [
+        "Login.png",
+        "Login concept"
+      ],
+      [
+        "Dashboard.png",
+        "Account dashboard"
+      ],
+      [
+        "Verify Identity.png",
+        "Identity verification options"
+      ],
+      [
+        "Transfer.png",
+        "Transfer review concept"
+      ],
+      [
+        "Support.png",
+        "International support concept"
+      ]
+    ]
+  },
+  {
+    "slug": "bumbershoot",
+    "title": "Bumbershoot",
+    "subtitle": "Helping festivalgoers explore, plan, and navigate their experience",
+    "kind": "Group UX/UI project",
+    "meta": {
+      "Project type": "Group UX/UI design project",
+      "My contribution": "User flows, announcement board, map page, tile artwork, and schedule page",
+      "Tools": "Figma"
+    },
+    "cover": "Bumbershoot.png",
+    "sections": [
+      [
+        "Overview",
+        "Bumbershoot is a group app design project centred on the festival experience. The concept brings schedules, announcements, and a festival map into one mobile interface, helping attendees find useful information while enjoying the event."
+      ],
+      [
+        "The problem",
+        "Festivals offer plenty to discover, but attendees also need to make practical decisions: which performance to see, where to go next, and whether anything has changed.\n\nWhen this information is difficult to locate, planning can interrupt the experience.\n\n**Design question:** How might we help festivalgoers find their next activity and navigate the event through a clear, engaging mobile experience?"
+      ],
+      [
+        "The goal",
+        "Design an app concept that helps attendees:\n- Explore performances and activities.\n- Check the festival schedule.\n- Locate stages and amenities.\n- Find event announcements."
+      ],
+      [
+        "My contribution",
+        "Working within a group, I contributed to user flows and the design of the announcement board, map, and schedule pages. I also created tile artwork to support the app’s visual identity.\n\nMy focus was on connecting expressive festival visuals with practical information that attendees could scan quickly."
+      ],
+      [
+        "The design approach",
+        "**Schedule: make browsing easier**\nThe schedule page organises event information so attendees can explore what is happening and decide what to see next. A clear hierarchy gives performance details room to stand out.\n\n**Map: connect discovery with location**\nThe map page supports navigation around the festival. Its purpose is to help attendees connect an event or destination with its location and orient themselves within the venue.\n\n**Announcements: give updates a clear home**\nThe announcement board provides a dedicated place for festival updates. Separating announcements from the schedule helps attendees distinguish new information from planned programming.\n\n**Tile artwork: express the festival’s energy**\nThe tile artwork brings a playful, creative character to the interface. I aimed to make the visuals engaging while keeping navigation and event information readable."
+      ],
+      [
+        "User flows and prototyping",
+        "The project explored how attendees could move between discovering an event, reviewing its details, and locating it on the map.\n\nWireframes helped establish the page structure before developing higher-fidelity screens. Storyboarding and prototype work helped communicate how the app could fit into a festival visit."
+      ],
+      [
+        "Key design decisions",
+        "**Keep essential information easy to scan.**\nSchedules, locations, and announcements need a clear hierarchy so users can find relevant details quickly.\n\n**Connect the schedule and map.**\nKnowing what is happening and knowing where it is happening are closely related needs.\n\n**Balance visual expression with usability.**\nThe festival’s creative character should support a lively experience while allowing practical information to remain clear."
+      ],
+      [
+        "Outcome and next steps",
+        "The group project developed user flows, wireframes, interface designs, a style guide, and a final storyboard to communicate the proposed experience.\n\nThe design remains a concept. Its effect on navigation and planning has not been established through validated usability results.\n\nThe next step would be to test whether attendees can find a performance, identify its location, and locate an announcement without assistance. Testing in outdoor conditions would also help assess readability and map clarity."
+      ],
+      [
+        "Reflection",
+        "Bumbershoot gave me experience designing within a team and considering how separate screens work together as one product. It helped me practise balancing expressive visual design with the practical needs of people using an app during a busy event."
+      ]
+    ],
+    "gallery": [
+      [
+        "Homepage.png",
+        "Festival homepage"
+      ],
+      [
+        "Schedule Page.png",
+        "Schedule browsing"
+      ],
+      [
+        "Map Page.png",
+        "Festival map"
+      ],
+      [
+        "Map filters.png",
+        "Map filters"
+      ],
+      [
+        "Artist Details (Assets).png",
+        "Artist details"
+      ],
+      [
+        "Event Details.png",
+        "Event details"
+      ],
+      [
+        "Vendor Details.png",
+        "Vendor details"
+      ],
+      [
+        "Settings Page (Figma).png",
+        "Settings"
+      ],
+      [
+        "Loading Error.png",
+        "Loading error state"
+      ],
+      [
+        "No Connection.png",
+        "No connection state"
+      ],
+      [
+        "Updated Color Palette.png",
+        "Updated colour palette"
+      ]
+    ]
+  },
+  {
+    "slug": "our-beauty-cult",
+    "title": "Our Beauty Cult",
+    "subtitle": "Reimagining beauty discovery through clearer navigation and visual design",
+    "kind": "Website redesign concept",
+    "meta": {
+      "Project type": "Website redesign concept",
+      "Focus": "Information architecture, wireframes, branding, and interface design"
+    },
+    "cover": "Homepage(1).png",
+    "sections": [
+      [
+        "Overview",
+        "Our Beauty Cult is a beauty blog redesign concept focused on helping readers explore products, discover reviews, and browse content through a cohesive visual experience."
+      ],
+      [
+        "The problem",
+        "Beauty blogs can contain a wide range of reviews, product categories, and editorial content. Without clear organisation, readers may struggle to find relevant information or understand where to explore next.\n\nThe design challenge was to make beauty content easier to discover while creating a distinct and consistent visual identity.\n\n**Design question:** How might we create an engaging beauty website that helps readers move easily between product categories, reviews, and related content?"
+      ],
+      [
+        "The goal",
+        "Create a website concept that helps readers:\n- Browse beauty content through clear categories.\n- Find product reviews and understand their context.\n- Discover related articles and products.\n- Enjoy a consistent experience across the site."
+      ],
+      [
+        "My approach",
+        "I explored the website’s structure through a sitemap, then developed wireframes to establish content hierarchy and page layouts. Alongside this, I worked on the brand direction to connect the site’s editorial content with a cohesive visual identity.\n\nThe focus was on making the content structure understandable before refining the visual details."
+      ],
+      [
+        "The proposed experience",
+        "**Clearer content categories**\nThe navigation gives readers a starting point for exploring beauty topics. Organising content into recognisable categories supports both purposeful browsing and open-ended discovery.\n\n**Scannable review previews**\nArticle and review previews establish a consistent hierarchy for imagery, titles, and supporting information. The intention is to help readers assess what interests them before opening a full article.\n\n**Connected content**\nThe proposed structure creates opportunities to move between categories, reviews, and related articles, helping readers continue exploring beyond a single page.\n\n**Cohesive visual identity**\nThe brand direction brings consistency to typography, imagery, colour, and layout. These elements support the beauty editorial experience while keeping the content readable."
+      ],
+      [
+        "Key design decisions",
+        "**Prioritise navigation and hierarchy.**\nReaders need to understand the site’s structure and distinguish categories, article titles, and supporting details.\n\n**Use imagery with purpose.**\nProduct and editorial imagery should help readers recognise content while supporting a consistent page layout.\n\n**Build repeatable layouts.**\nConsistent content cards and page patterns create a foundation for adding new reviews and articles."
+      ],
+      [
+        "Outcome and next steps",
+        "The project explored a sitemap, wireframes, product categories, review layouts, and a brand direction for the redesigned website.\n\nThe redesign remains a concept. Improvements in content discovery and usability would need to be evaluated through testing.\n\nThe next step would be to ask readers to locate a product review, browse a category, and find a related article. Their feedback would help refine category names, navigation, and content hierarchy."
+      ],
+      [
+        "Reflection",
+        "Our Beauty Cult helped me explore the relationship between branding and content organisation. It reinforced how visual consistency and clear structure can work together to support an engaging editorial experience."
+      ]
+    ],
+    "gallery": [
+      [
+        "Old Homepage.png",
+        "Before: original homepage"
+      ],
+      [
+        "Old discount code .png",
+        "Before: original discount codes page"
+      ],
+      [
+        "Review page .png",
+        "Redesign: customer reviews concept; ratings and reviews are sample interface content"
+      ],
+      [
+        "Shade match.png",
+        "Redesign: shade discovery concept"
+      ],
+      [
+        "Our Beauty Cult Color Palette.png",
+        "Redesigned colour palette"
+      ]
+    ]
+  },
+  {
+    "slug": "whatcha-doing",
+    "title": "Whatcha Doing",
+    "subtitle": "Making everyday tasks easier to organise",
+    "kind": "UX/UI app design",
+    "meta": {
+      "Project type": "UX/UI app design",
+      "Focus": "Task organisation, user flows, interface design, and prototyping"
+    },
+    "cover": "Homepage(2).png",
+    "sections": [
+      [
+        "Overview",
+        "Whatcha Doing is a task management app design project focused on helping people organise their responsibilities and understand what to do next."
+      ],
+      [
+        "The problem",
+        "When tasks are scattered across notes, messages, and reminders, it can be difficult to keep track of what needs attention. A task management experience needs to make adding and reviewing tasks straightforward without creating more work for the user.\n\n**Design question:** How might we help people organise everyday tasks through a clear and approachable mobile experience?"
+      ],
+      [
+        "The goal",
+        "Create an app concept that supports a simple task management journey: capturing a task, reviewing responsibilities, and keeping track of progress."
+      ],
+      [
+        "Design approach",
+        "The project explored how users move through task-related actions and how the interface can make those actions understandable. User flows and prototype work helped connect individual screens into a coherent experience.\n\nThe design direction focused on clear hierarchy, consistent navigation, and visible actions."
+      ],
+      [
+        "Key design considerations",
+        "**Make the next action clear.**\nUsers should be able to recognise where to begin and how to move forward.\n\n**Keep task information readable.**\nLayouts should help users distinguish individual tasks and understand relevant details.\n\n**Maintain consistency across screens.**\nRepeated interface patterns can make the experience easier to learn and navigate.\n\n**Provide useful feedback.**\nTask-related actions should communicate their result so users understand what has changed."
+      ],
+      [
+        "Outcome and next steps",
+        "The project included task-focused design work and prototypes illustrating the proposed experience.\n\nThe next step would be to test the core journey with users: adding a task, finding it again, and updating its progress. This would help identify unclear labels, unnecessary steps, and opportunities to improve feedback."
+      ],
+      [
+        "Reflection",
+        "Whatcha Doing helped me explore how small interface decisions affect everyday usability. The project encouraged me to think carefully about the relationship between clear information, simple actions, and a consistent user journey."
+      ]
+    ],
+    "gallery": [
+      [
+        "Projects.png",
+        "Project tasks and progress"
+      ],
+      [
+        "Calendar.png",
+        "Calendar and upcoming tasks"
+      ],
+      [
+        "Settings.png",
+        "Account and app settings"
+      ],
+      [
+        "Screenshot 2026-05-12 010949 1.png",
+        "Moodboard and visual inspiration"
+      ]
+    ]
+  },
+  {
+    "slug": "flex-academy",
+    "title": "The Flex Academy",
+    "subtitle": "Designing a clear, engaging landing page across desktop and mobile",
+    "kind": "Design assessment",
+    "meta": {
+      "Project type": "Design assessment",
+      "My role": "UI/UX Designer",
+      "Tools": "Figma",
+      "Deliverables": "Desktop and mobile designs, low- and high-fidelity wireframes, and user flows",
+      "Status": "Assessment concept"
+    },
+    "cover": "Landing page Desktop - 2.png",
+    "sections": [
+      [
+        "Overview",
+        "The Flex Academy is a landing page design completed as part of an assessment. The project focused on translating a supplied brief into a cohesive digital experience, with clear content hierarchy and prominent calls to action."
+      ],
+      [
+        "The challenge",
+        "A landing page needs to communicate its offering quickly and give visitors a clear reason to continue exploring. This project required balancing brand expression, content, and calls to action within a focused page experience.\n\n**Design question:** How might we introduce The Flex Academy clearly and guide visitors towards the next step across desktop and mobile?"
+      ],
+      [
+        "The goal",
+        "Create a landing page concept that:\n- Communicates the offering through a clear visual hierarchy.\n- Organises content into an understandable sequence.\n- Makes key calls to action easy to find.\n- Adapts the experience to desktop and mobile screens."
+      ],
+      [
+        "My approach",
+        "I began with low-fidelity wireframes to explore the page structure, content order, and placement of key actions. This helped establish the overall journey before developing the visual design.\n\nI then created high-fidelity desktop and mobile layouts, exploring how The Flex and Base360 colour directions could work together within a consistent interface."
+      ],
+      [
+        "Key design decisions",
+        "**Establish a clear first impression**\nThe opening section prioritises the main message and primary action. Its purpose is to help visitors understand the page and identify where to begin.\n\n**Give the content a deliberate sequence**\nI organised the layout to introduce information progressively. Distinct sections and consistent spacing help visitors scan the page and decide what to explore.\n\n**Make calls to action visible**\nProminent calls to action create clear points for visitors to continue. Their placement supports the page’s intended journey.\n\n**Adapt the layout for mobile**\nThe mobile design reworks the desktop composition into a narrower reading flow, considering content stacking, spacing, and the visibility of key actions."
+      ],
+      [
+        "Outcome",
+        "I completed low-fidelity and high-fidelity designs, user flows, and desktop and mobile landing page concepts within the assessment’s six-to-eight hour timebox.\n\nThe work demonstrates my approach to interpreting a brief, prioritising design decisions, and delivering a cohesive concept under a deadline. The design was submitted for assessment; implementation and conversion results were not available."
+      ],
+      [
+        "What I would test next",
+        "I would test whether visitors can explain the offering after viewing the opening section, locate the primary action, and understand what happens next. I would also evaluate the mobile reading flow and refine the design based on feedback."
+      ],
+      [
+        "Reflection",
+        "The Flex Academy helped me practise making focused design decisions within a limited timeframe. It reinforced the value of establishing structure early and treating mobile layouts as a core part of the experience."
+      ]
+    ],
+    "gallery": [
+      [
+        "Landing page mobile wireframe.png",
+        "Mobile landing page design"
+      ],
+      [
+        "Registration form.png",
+        "Webinar registration"
+      ],
+      [
+        "Confirmation.png",
+        "Webinar confirmation"
+      ],
+      [
+        "Qualification form.png",
+        "Strategy call qualification"
+      ],
+      [
+        "Choose a time.png",
+        "Date and time selection"
+      ],
+      [
+        "Confirmation booking.png",
+        "Strategy call booking confirmation"
+      ],
+      [
+        "Email capture form.png",
+        "Checklist request"
+      ],
+      [
+        "Confirmation email .png",
+        "Checklist request confirmation"
+      ],
+      [
+        "Email (delivery).png",
+        "Checklist delivery email"
+      ],
+      [
+        "Reminder (email).png",
+        "Webinar reminder email"
+      ],
+      [
+        "Reminder (email)booking.png",
+        "Strategy call reminder email"
+      ],
+      [
+        "The Flex Academy color palette.png",
+        "The Flex Academy colour palette"
+      ]
+    ]
+  },
+  {
+    "slug": "ritshi-solutions",
+    "title": "Ritshi Solutions",
+    "subtitle": "Refreshing the brand through a logo redesign",
+    "kind": "Logo redesign",
+    "meta": {
+      "Project type": "Logo redesign",
+      "My role": "Graphic Designer",
+      "Scope": "Logo exploration and visual direction"
+    },
+    "cover": "Ritshi Solutions.png",
+    "sections": [
+      [
+        "Overview",
+        "Ritshi Solutions is a logo redesign project focused on exploring a refreshed visual identity for an industrial business."
+      ],
+      [
+        "The challenge",
+        "Explore how the logo could communicate the company’s industrial focus through a clear, recognisable mark."
+      ],
+      [
+        "The goal",
+        "Develop a logo direction that feels professional, reflects the business, and works across digital and printed materials."
+      ],
+      [
+        "Design exploration",
+        "I explored logo concepts, considering how typography, shape, and composition could work together. The process focused on balancing a distinctive character with readability and simplicity."
+      ],
+      [
+        "Key considerations",
+        "- **Typography:** Establish a clear and professional company name.\n- **Form:** Create a recognisable composition.\n- **Versatility:** Consider legibility at different sizes and on different backgrounds.\n- **Relevance:** Connect the visual direction to the company’s industrial focus."
+      ],
+      [
+        "Outcome",
+        "The project produced a logo exploration board presenting proposed directions for Ritshi Solutions. The supplied visuals show the original mark, a redesigned direction, and illustrative applications on a mug, shirt, and pen."
+      ],
+      [
+        "Reflection",
+        "This project helped me practise translating a business’s character into a focused visual mark and considering how typography and form influence brand perception."
+      ]
+    ],
+    "gallery": [
+      [
+        "Old Logo.png",
+        "Before: original logo"
+      ],
+      [
+        "Ritshi mug.png",
+        "Proposed logo application: mug mockup"
+      ],
+      [
+        "Ritshi shirt and pen.png",
+        "Proposed logo applications: shirt and pen mockup"
+      ]
+    ]
+  }
+]
