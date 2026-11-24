@@ -2,3 +2,138 @@
 
 /* Formspree contact form */
 .contact-form{max-width:760px;margin-top:30px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}.form-field{display:flex;flex-direction:column;margin-bottom:20px}.form-field label{font-size:13px;margin-bottom:7px;color:#fff4e6}.form-field input,.form-field textarea{width:100%;padding:13px 14px;border:1px solid #d7b8a4;border-radius:4px;background:#fffaf4;color:#302b28;font:16px/1.5 Arial,Helvetica,sans-serif}.form-field textarea{resize:vertical;min-height:160px}.form-field input:focus-visible,.form-field textarea:focus-visible{outline:3px solid #efc5a9;outline-offset:3px}.contact-form button{border:0;font-family:inherit;cursor:pointer;min-height:48px}.contact-form button:focus-visible{outline:3px solid #efc5a9;outline-offset:4px}.contact .form-note{font-size:11px;margin:15px 0 0;color:#efd5c4}@media(max-width:650px){.form-row{grid-template-columns:1fr;gap:0}}
+
+/* Editorial homepage */
+.home {
+  --paper: #f8f4ed;
+  --ink: #231c20;
+  --muted: #5e5054;
+  --line: #d5c8c1;
+  --rust: #9e3c2a;
+  --serif: "Instrument Serif", Georgia, serif;
+  font-family: "DM Sans", Arial, sans-serif;
+}
+
+.home header,
+.home main,
+.home footer {
+  max-width: 1560px;
+  padding-inline: clamp(1.25rem, 5vw, 5rem);
+}
+
+.home header { padding-block: 1.1rem; gap: 1rem; }
+.home .brand { font: 700 1.05rem/1.2 "DM Sans", Arial, sans-serif; letter-spacing: -.04em; }
+.home .brand span { margin-top: .25rem; font: 500 .8125rem/1.2 "DM Sans", Arial, sans-serif; letter-spacing: 0; text-transform: none; color: var(--muted); }
+.home nav { flex-wrap: wrap; gap: .25rem clamp(.6rem, 2.5vw, 2.5rem); font-size: .9375rem; font-weight: 700; }
+.home nav a { display: inline-flex; align-items: center; min-height: 44px; }
+.home nav a:last-child { color: var(--rust); }
+.home .eyebrow { font-size: .875rem; letter-spacing: .12em; line-height: 1.4; }
+.home .hero {
+  display: grid;
+  grid-template-columns: 1fr minmax(0, .97fr);
+  gap: clamp(1.5rem, 5vw, 5rem);
+  align-items: center;
+  padding-block: clamp(2.25rem, 5.5vw, 5.5rem);
+}
+
+.home .hero-intro { padding: 0; }
+.home h1,
+.home h2 {
+  font: 400 clamp(3.3rem, 6.4vw, 6.8rem)/.96 var(--serif);
+  letter-spacing: -.035em;
+}
+.home .hero h1 { margin: .85rem 0 1.2rem; }
+.home .hero-note { max-width: 34ch; margin: 0; color: var(--muted); }
+.home .hero-image { margin: 0; min-height: 0; max-height: none; border-radius: 0; }
+
+.home .section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 1.35rem 2rem;
+  padding: clamp(1.75rem, 3vw, 3rem) 0 1.65rem;
+  border-top: 1px solid var(--line);
+}
+.home .section-head h2 { margin: 0; font-size: clamp(3.45rem, 7.8vw, 8.25rem); }
+.filters { display: flex; flex-wrap: wrap; gap: .45rem; }
+.filters[hidden] { display: none; }
+.filters button {
+  min-height: 44px;
+  padding: .55rem .95rem;
+  border: 1px solid var(--line);
+  border-radius: 2rem;
+  background: transparent;
+  color: var(--ink);
+  line-height: 1.25;
+  font-family: inherit;
+  font-size: .875rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.filters button:hover { border-color: var(--rust); }
+.filters button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+.filters button:focus-visible { outline: 3px solid var(--rust); outline-offset: 3px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+.home .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(2rem, 5vw, 5rem) clamp(1.25rem, 3vw, 3rem); }
+.home .card { grid-column: auto; }
+.home .card > a { height: 100%; border-bottom: 1px solid var(--line); }
+.home .card .cover {
+  height: auto;
+  aspect-ratio: 8 / 5;
+  align-items: center;
+  padding: clamp(.85rem, 2vw, 1.85rem);
+  border-radius: 0;
+}
+.home .carecircle .cover { background: #edd1c4; }
+.home .vaulto .cover { background: #211936; }
+.home .bumbershoot .cover { background: #dbe6ba; }
+.home .our-beauty-cult .cover { background: #e9d4dc; }
+.home .whatcha-doing .cover { background: #e1eae2; }
+.home .flex-academy .cover { background: #dce5dd; }
+.home .ritshi-solutions .cover { background: #ebe4dd; }
+.home .ritshi-solutions .cover img { max-width: 78%; }
+.home .card-details { padding: 1.1rem 0 1.35rem; }
+.home .card h3 { font: 400 clamp(2.1rem, 4vw, 4rem)/1 var(--serif); letter-spacing: -.025em; margin: 0 0 .5rem; }
+.home .card .card-category { color: var(--rust); font-size: .875rem; font-weight: 700; }
+.home .card .card-description { font-size: 1rem; max-width: 49ch; }
+.home .text-link { font-size: .9375rem; font-weight: 700; border-color: var(--rust); }
+.home .card a:is(:hover, :focus-visible) .text-link { color: var(--rust); text-decoration: none; }
+.home .card a:hover .cover img { transform: none; }
+
+.home .about { gap: clamp(2rem, 8vw, 8rem); }
+.home .about h2,
+.home .contact h2 { font-size: clamp(3rem, 5.6vw, 5.5rem); }
+.home .about p:not(.eyebrow),
+.home .contact p:not(.form-note, .eyebrow) { font-size: 1rem; }
+.home .skill-title,
+.home .skills span,
+.home .form-field label { font-size: .875rem; }
+.home .contact { background: #39262d; border-radius: 0; }
+.home .contact .button { font-size: .9375rem; font-weight: 700; }
+.home footer { font-size: .875rem; }
+.home footer a { text-decoration: underline; }
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .home .card a:hover .cover img { transform: scale(1.035); }
+}
+
+@media (max-width: 700px) {
+  .home .hero { grid-template-columns: 1fr; gap: 1.5rem; }
+  .home .hero-image { aspect-ratio: auto; }
+  .home .grid { grid-template-columns: 1fr; }
+  .home .card .cover { aspect-ratio: 4 / 3; }
+  .home .section-head { align-items: start; flex-direction: column; }
+}
+
+@media (max-width: 370px) {
+  .home header { align-items: start; flex-direction: column; gap: .25rem; }
+  .home header nav { gap: 1.25rem; }
+  .home .hero h1 { font-size: 3rem; }
+  .filters button { padding-inline: .75rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card a:hover .cover img { transform: none; }
+}

@@ -19,3 +19,31 @@ if (links) {
     links.appendChild(link);
   }
 }
+
+const filters = document.querySelector('.filters');
+if (filters) {
+  const buttons = [...filters.querySelectorAll('button')];
+  const cards = document.querySelectorAll('#work [data-category]');
+  const status = document.querySelector('#work [role="status"]');
+
+  filters.addEventListener('click', event => {
+    const selected = event.target.closest('button[data-filter]');
+    if (!selected || selected.getAttribute('aria-pressed') === 'true') return;
+
+    for (const button of buttons) {
+      button.setAttribute('aria-pressed', String(button === selected));
+    }
+
+    let visibleCount = 0;
+    for (const card of cards) {
+      const matches = selected.dataset.filter === 'all' ||
+        card.dataset.category === selected.dataset.filter;
+      card.hidden = !matches;
+      if (matches) visibleCount += 1;
+    }
+
+    status.textContent = `${visibleCount} ${visibleCount === 1 ? 'project' : 'projects'} shown.`;
+  });
+
+  filters.hidden = false;
+}
